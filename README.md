@@ -18,8 +18,8 @@ This guide walks you through the steps of cloning a Flutter project from GitHub 
 
    ```bash
    https://github.com/FalconSlayer51/esports_app.git
-3. **Before running the project make sure you download `google-services.json` file from firebase project and paste the file in [android/app](android/app) folder.
-4. **Add the `API KEY` in [lib/utils/constants.dart](lib/utils/constants.dart) file. you can get the api key from [https://newsapi.org/] website.
-5. **Goto the root of project and type the following command.
+3. **Preflight checks:** Before running the project make sure you download `google-services.json` file from firebase project and paste the file in [android/app](android/app) folder.
+4. **Adding the apikey:** Add the `API KEY` in [lib/utils/constants.dart](lib/utils/constants.dart) file. you can get the api key from [https://newsapi.org/] website.
+5. **Running the app**: Goto the root of project and type the following command.
      ```bash
          flutter run
