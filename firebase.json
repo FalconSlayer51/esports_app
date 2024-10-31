@@ -1,0 +1,39 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "esports-app-877b3",
+          "appId": "1:405972373818:android:9a3c48d691ac7a78204003",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "esports-app-877b3",
+          "configurations": {
+            "android": "1:405972373818:android:9a3c48d691ac7a78204003",
+            "ios": "1:405972373818:ios:1ce2270102128acd204003",
+            "web": "1:405972373818:web:f924d43ff55b60fe204003"
+          }
+        }
+      }
+    }
+  },
+  "functions": [
+    {
+      "source": "functions",
+      "codebase": "default",
+      "ignore": [
+        "node_modules",
+        ".git",
+        "firebase-debug.log",
+        "firebase-debug.*.log",
+        "*.local"
+      ],
+      "predeploy": [
+        "npm --prefix \"$RESOURCE_DIR\" run lint"
+      ]
+    }
+  ]
+}
