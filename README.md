@@ -12,7 +12,7 @@ This guide walks you through the steps of cloning a Flutter project from GitHub 
 
 ## Steps
 
-1. **Find the GitHub Repository:** Locate the Flutter project you want to clone on GitHub. The repository URL will typically look like [https://github.com/FalconSlayer51/esports_app.git].
+1. **Find the GitHub Repository:** Locate the Flutter project you want to clone on GitHub. The repository URL will typically look like [https://github.com/FalconSlayer51/esports_app.git](https://github.com/FalconSlayer51/esports_app.git).
 
 2. **Clone the Repository:** Open your terminal or command prompt and navigate to the directory where you want to store the project.  Then, use the `git clone` command:
 
